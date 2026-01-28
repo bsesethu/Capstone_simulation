@@ -1,0 +1,27 @@
+Capstone Simulation - Mpumalanga Crime Data Analysis
+
+1. Cleaning Script:
+- Loaded the original dataset from 'Crime_data_A_new.csv'.
+- Cleaned column names by removing newline characters and spaces.
+- Selected only the 'CRIME_CATEGORY' and 'Mpumalanga' columns.
+- Dropped missing values and stripped whitespaces for clean analysis.
+- Saved the cleaned dataset as 'cleaned_mpumalanga_crime.csv' in the 'clean_dataset' folder.
+
+2. Analysis Performed:
+- Identified the top 5 most reported crimes in Mpumalanga.
+- Calculated basic descriptive statistics using pandas.
+- Used matplotlib to create a pie chart showing the top 5 crimes by proportion.
+
+3. Visualizations:
+- Pie chart showing the top 5 crime categories in the Mpumalanga province.
+- Graph saved as 'mpumalanga_pie_chart.png' in the 'graphs_or_visualization' folder.
+
+4. Files Added:
+- raw_dataset/Crime_data_A_new.csv
+- clean_dataset/cleaned_mpumalanga_crime.csv
+- cleaning_script/capstone_EDA_crimestats.py
+- graphs_or_visualization/Top 5 Crimes in Mpumalanga.png & Top 5 Crimes in MP_Pie.png, 
+- one.txt
+
+Author: Boipelo Mokoena
+Date: 30/05/2025
